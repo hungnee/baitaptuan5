@@ -139,3 +139,8 @@ body {
     width: 320px;
     height: 210px;
 }
+
+.description {
+    height: 470px;
+    background-color: aqua;
+}
