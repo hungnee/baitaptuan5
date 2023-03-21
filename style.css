@@ -105,3 +105,37 @@ body {
 .product-title-review .share-save p {
     padding-left: 35px;
 }
+
+.product {
+    height: 435px;
+    padding-left: 135px;
+    display: flex;
+}
+
+.product>img {
+    width: 580px;
+}
+
+.product .row2 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product .row2>img {
+    width: 320px;
+    height: 210px;
+}
+
+.product .row3 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product .row3>img {
+    width: 320px;
+    height: 210px;
+}
