@@ -43,6 +43,12 @@ body {
     color: #000;
 }
 
+.nav li:hover a {
+    padding-bottom: 20px;
+    color: #00bdd6;
+    border-bottom: 3px solid #00bdd6;
+}
+
 .s-i-c-a {
     display: flex;
     align-items: center;
