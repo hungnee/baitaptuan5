@@ -396,4 +396,96 @@ body {
 
 .footer {
     height: 565px;
+    margin-top: 70px;
+    padding-left: 135px;
+    padding-right: 125px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer-logo h1 {
+    text-align: center;
+    font-size: 23px;
+    margin-top: 45px;
+}
+
+.subcribe-newsletter {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.subcribe-newsletter input {
+    width: 265px;
+    height: 35px;
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.subcribe-newsletter button {
+    width: 110px;
+    height: 35px;
+    border: none;
+    background-color: #00bdd6;
+    color: #fff;
+    border-radius: 0 3px 3px 0;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.more h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.more p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.more-product,
+.more-resources,
+.more-company {
+    margin-right: 100px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.link select {
+    width: 135px;
+    height: 35px;
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 3px;
+}
+
+.link ul {
+    display: flex;
+}
+
+.link .copyright {
+    list-style-type: none;
+}
+
+.link li {
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.social img {
+    margin-left: 10px;
 }
